@@ -1,0 +1,294 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.item{
+  color: white;
+  height: 100vh;
+  background-image: url(file.jpeg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item-nav{
+    color: white;
+    float:right;
+    background-color: rgba(0, 0, 0,0.2);
+    position: fixed;
+    width: 100%;
+}
+.item-nav img{
+    width: 80px; 
+    float: left;
+    margin: 5px;
+    border-radius: 50px;
+    background-size: 100vh;
+}
+
+.item-nav ul{
+    float:right;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.item-nav ul li{
+    float:left;
+    margin: 0px 20px;
+    margin: 20px;
+}
+.item-nav ul li:hover{
+    background-color: cadetblue;
+    transition: .5s;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+.clr{
+    clear: both;
+}
+.item-nav ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+.h1{
+    font-size: 50px;
+    padding:  15px;
+    color:black;
+
+}
+.h2{
+    margin: 5px;
+ font-size: 50px;
+ color:black;
+
+}
+
+.h3{
+    margin: 10px;
+}
+
+.welcome{
+ font-size: 40px; 
+ color:black;
+ margin: 20px;
+}
+
+button{
+    padding:14px 10px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: rgb(253, 248, 242);
+}
+
+button:hover{
+    border-color: rgb(236, 221, 201);
+}
+button.test{
+    background-color: rgba(230, 166, 83, 0.959);
+    font-size: 18px;
+}
+button.contactus{
+    background-color: blanchedalmond;
+    border: black 1px solid;
+    text-align:right ;
+    color: black;
+    font-size: 18px;
+}
+ .clr{
+     clear: both;
+ }  
+ .homeBody{
+    padding-top:150px;
+    text-align:left;
+    color: black;
+}
+.section3{
+    background-color: whitesmoke;
+} 
+  
+.leftPart{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 90px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color:burlywood;
+    font-family: sans-serif;
+    margin: 0;
+    display: block;
+    font-weight: 200;
+    letter-spacing: -2px;  
+}
+.leftPart p{
+    color: black;
+    font-size: 30px;
+}
+.rightPart{
+    background-color: black;
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.rightPart img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+
+.section4{
+    text-align: center;
+    padding-top: 10px;
+}
+.section4 h2{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin: 0;
+    display: block;
+    color:burlywood;
+    font-family: sans-serif;
+}
+
+.test1 { 
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding: 9px;
+    box-sizing: border-box;}
+
+.test1 img{
+    width: 100%;
+    background-size: cover;
+}
+
+.section4 .test2 { 
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+
+.test2 img{
+    width: 100%;
+    background-size: cover;
+}
+
+.test3 { 
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding: 9px;
+    box-sizing: border-box; 
+}
+clr{
+    clear:both;
+}
+.test3 img{
+    width:  100%;
+    background-size: cover;
+}
+
+   
+ .section5{
+    width: 100%;
+    background-color:whitesmoke;
+} 
+.text1{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: -2px;
+    margin: 0;
+    display: block;
+    color:burlywood;
+    font-family: sans-serif;
+}
+.text1 p{
+    color: black;
+}
+.text1 ul{
+    text-align: left;
+    color: black;
+}
+.text2{
+    width:50%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+.text2 img{
+    width: 100%;
+}
+.clr{
+    clear: both; 
+}
+
+.section6{
+    background-color: rgb(43, 37, 37);
+    padding:7px;
+}
+.section6 ul{
+    color: rgba(116, 110, 110, 0.932);}
+    
+.section6 p{
+    color: whitesmoke;} 
+
+.section6 h2{
+        color: white;
+    }
+.About {
+    width: 33%;
+    float: left;
+}
+.About p{
+    color: whitesmoke;
+    font-size: 14px ;
+}
+.Special{
+    width: 33%;
+    float: left;
+}
+.Special li{
+   color: whitesmoke;
+} 
+
+.Hourse{
+    width: 33%;
+    float: left;
+    margin: 0%;
+}
+.Hourse ul li{
+    color: whitesmoke;
+}
+
+li{
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+}
+
+.section7{
+    text-align: center;
+    background-color:rgb(32, 30, 30) ;
+    color: rgba(236, 224, 224, 0.863);
+}
+
+
